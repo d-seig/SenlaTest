@@ -8,8 +8,7 @@ public class Backpack
 {
     private ArrayList<Goods> bestItems = new ArrayList<Goods>(0);
 
-    //private ArrayList<Goods> items = new ArrayList<Goods>();
-    private ArrayList<Goods> items = new ArrayList<Goods>(Arrays.asList(new Goods("Конская залупа", -5.3, 78), new Goods("Жопный спид", 14.9, 102), new Goods("Спидорак", 118, 402)));
+    private ArrayList<Goods> items = new ArrayList<Goods>();
 
     private double maxW;
 
