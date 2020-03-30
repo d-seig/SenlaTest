@@ -99,9 +99,7 @@ public class Backpack
         }
         ToString();
     }
-
-        //AddItems(); // main
-        //ShowItems(items); // main
+    
     private void ToString()
     {
         for (Goods i : items)
@@ -110,7 +108,6 @@ public class Backpack
         }
     }
 
-    //решить задачу
     public void solve()
     {
         MakeAllSets(items);
@@ -130,8 +127,6 @@ public class Backpack
             }
         }
     }
-
-
 
     //возвращает решение задачи (набор предметов)
     private ArrayList<Goods> GetBestSet()
